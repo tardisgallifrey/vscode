@@ -26,6 +26,10 @@ class Shape {
          height = h;
       }
    
+   //Using protected members
+   //is an example of Data Abstraction,
+   //not to be confused with abstract classes.
+
    protected:
       int width;
       int height;
@@ -34,6 +38,11 @@ class Shape {
 // Derived classes
 class Rectangle: public Shape {
    public:
+
+   //So, here we IMPLEMENT or OVERRIDE (?)
+   //The virtual function in the base class,
+   //all legal and such.
+   
       int getArea() { 
          return (width * height); 
       }
