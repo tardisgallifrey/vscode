@@ -1,4 +1,5 @@
 #include <iostream>
+#include "class1.cpp"
 
 using namespace std;
 
