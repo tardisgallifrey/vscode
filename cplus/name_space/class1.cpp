@@ -2,7 +2,7 @@
 
 using namespace std;
 
-namespace First {
+namespace first {
 
     class FirstClass {
         void display(){
