@@ -1,6 +1,6 @@
 #include <iostream>
-#include "class1.cpp"
-#include "class2.cpp"
+#include "class1.h"
+#include "class2.h"
 
 using namespace std;
 using namespace second;

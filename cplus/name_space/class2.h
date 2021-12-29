@@ -1,3 +1,7 @@
+#ifndef _CLASS2_
+#define _CLASS2_
+
+
 #include <iostream>
 
 using namespace std;
@@ -12,3 +16,4 @@ namespace second {
     };
 
 }
+#endif

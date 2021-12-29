@@ -1,3 +1,6 @@
+#ifndef _CLASS1_
+#define _CLASS1_
+
 #include <iostream>
 
 using namespace std;
@@ -12,3 +15,4 @@ namespace first {
     };
 
 }
+#endif
