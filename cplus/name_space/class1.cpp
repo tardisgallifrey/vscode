@@ -8,6 +8,6 @@ namespace First {
         void display(){
             cout << "Hello from inside namespace First." << endl;
         }
-    }
+    };
 
-};
+}
