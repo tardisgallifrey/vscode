@@ -1,6 +1,12 @@
 #include <iostream>
 #include <csignal>
 
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+
 using namespace std;
 
 void signalHandler( int signum ) {

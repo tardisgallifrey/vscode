@@ -1,6 +1,14 @@
 #include <iostream>
 #include <csignal>
 
+//Sleep() comes from different
+//header files dependent on OS
+#ifdef _WIN32
+#include <Windows.h>
+#else
+#include <unistd.h>
+#endif
+
 using namespace std;
 //C# has a lot of classes of event  handlers
 //and built in events
