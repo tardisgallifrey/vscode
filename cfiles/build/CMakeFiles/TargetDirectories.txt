@@ -1,0 +1,3 @@
+/home/tardis1/vscode/cfiles/build/CMakeFiles/Tutorial.dir
+/home/tardis1/vscode/cfiles/build/CMakeFiles/edit_cache.dir
+/home/tardis1/vscode/cfiles/build/CMakeFiles/rebuild_cache.dir
