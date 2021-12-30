@@ -10,4 +10,5 @@ CMakeFiles/Tutorial.dir/hello.c.o: /home/tardis1/vscode/cfiles/hello.c \
  /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
- /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /home/tardis1/vscode/cfiles/build/TutorialConfig.h

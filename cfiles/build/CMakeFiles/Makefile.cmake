@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../TutorialConfig.h.in"
   "CMakeFiles/3.22.20211224-g71ef68e/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.20211224-g71ef68e/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.20211224-g71ef68e/CMakeSystem.cmake"
@@ -38,6 +39,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "TutorialConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 

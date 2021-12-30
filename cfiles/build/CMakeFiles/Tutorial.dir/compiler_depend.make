@@ -22,8 +22,11 @@ CMakeFiles/Tutorial.dir/hello.c.o: ../hello.c \
   /usr/include/bits/types/FILE.h \
   /usr/include/bits/types/struct_FILE.h \
   /usr/include/bits/stdio_lim.h \
-  /usr/include/bits/sys_errlist.h
+  /usr/include/bits/sys_errlist.h \
+  TutorialConfig.h
 
+
+TutorialConfig.h:
 
 /usr/include/bits/stdio_lim.h:
 
