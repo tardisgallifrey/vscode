@@ -4,7 +4,7 @@ public class NumObject {
 
    public static void main(String args[]) {
 
-       int y = 1;       //this is an integer primitive
+       int m = 1;       //this is an integer primitive
       Integer x = 5;    //This is an integer object
       Integer y = 10;
       Integer z =5;
@@ -37,15 +37,15 @@ public class NumObject {
       Double c = Double.valueOf(5);
 
       //String to float conversion
-      Float a = Float.valueOf("80");
+      Float p = Float.valueOf("80");
 
       //Integer converted to base16 (radix) and then to integer               
-      Integer b = Integer.valueOf("444",16);
+      Integer g = Integer.valueOf("444",16);
 
       
       System.out.println(c);
-      System.out.println(a);
-      System.out.println(b);
+      System.out.println(p);
+      System.out.println(g);
 
         //Convert object number to String
       System.out.println(x.toString());  
@@ -53,14 +53,13 @@ public class NumObject {
       System.out.println(Integer.toString(12));
 
         //CONVERT String to double primitive (or int, or whatever)
-      double c = Double.parseDouble("5");
+      double f = Double.parseDouble("5");
 
       //Same as above, but to primitive instead of object
-      int b = Integer.parseInt("444",16);
+      int n = Integer.parseInt("444",16);
 
-      System.out.println(x);
-      System.out.println(c);
-      System.out.println(b);
+      System.out.println(f);
+      System.out.println(n);
 
       /*
 
