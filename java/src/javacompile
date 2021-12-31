@@ -1,3 +1,3 @@
 #!/bin/bash
 
-javac -d ./ $1.java
+javac -d /home/tardis1/package_java $1.java
