@@ -7,8 +7,8 @@ public class Puppy {
    //A class variable
    int puppyAge;
 
-   //A class variable
-   string puppyName;
+   //A class variable, String must be capitalized
+   String puppyName;
 
    //This is the constructor because it has the same
    // name as the class.  It receives a string that
@@ -17,7 +17,7 @@ public class Puppy {
       // This constructor has one parameter, name.
 
       //Set puppyName to passed in name
-      puppyName = name;
+      this.puppyName = name;
       System.out.println("Name chosen is :" + puppyName );
    }
 
