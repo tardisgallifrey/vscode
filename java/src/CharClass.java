@@ -10,7 +10,7 @@ public class CharClass{
         char value = 'a';
 
         //Char object
-        Char newValue = 'b';
+        Character newValue = 'b';
 
 
         System.out.println(newValue.isLetter());
