@@ -10,8 +10,7 @@ public class CharClass{
         char value = 'a';
 
         //Char object
-        Character newValue = new Character;
-        newValue = 'b';
+        Character newValue = new Character('b');
 
         System.out.println(newValue.isLetter(newValue));
             //Determines whether the specified char value is a letter.
