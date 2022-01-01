@@ -18,7 +18,7 @@ public class CharClass{
         System.out.println(newValue.isDigit(newValue));
             //Determines whether the specified char value is a digit.
 
-        System.out.println(Character.isWhitespace(newValue));
+        System.out.println(newValue.isWhitespace(newValue));
             //Determines whether the specified char value is white space.
 
         //newValue.isUpperCase()
