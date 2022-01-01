@@ -13,13 +13,13 @@ public class CharClass{
         Character newValue = 'b';
 
 
-        System.out.println(newValue.isLetter());
+        System.out.println(isLetter(newValue));
             //Determines whether the specified char value is a letter.
 
-        System.out.println(newValue.isDigit());
+        System.out.println(isDigit(newValue));
             //Determines whether the specified char value is a digit.
 
-        //newValue.isWhitespace()
+        System.out.println(isWhitespace(newValue));
             //Determines whether the specified char value is white space.
 
         //newValue.isUpperCase()
