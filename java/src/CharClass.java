@@ -15,10 +15,10 @@ public class CharClass{
         System.out.println(newValue.isLetter(newValue));
             //Determines whether the specified char value is a letter.
 
-        System.out.println(isDigit(newValue));
+        System.out.println(newValue.isDigit(newValue));
             //Determines whether the specified char value is a digit.
 
-        System.out.println(isWhitespace(newValue));
+        System.out.println(Character.isWhitespace(newValue));
             //Determines whether the specified char value is white space.
 
         //newValue.isUpperCase()
