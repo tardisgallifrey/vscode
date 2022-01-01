@@ -3,7 +3,7 @@ package com.tardisgallifrey;
 //The methods in String class are so numerous,
 //I'm only going to show some common ones
 
-public class StringDemo {
+public class StrClass {
 
    public static void main(String args[]) {
       String palindrome = "Dot saw I was Tod";
@@ -26,7 +26,7 @@ public class StringDemo {
 
         //Also, this
         String fs;
-        s = String.format("The value of the float variable is " +
+        fs = String.format("The value of the float variable is " +
                    "%f, while the value of the integer " +
                    "variable is %d, and the string " +
                    "is %s", 98.7, 20, "And, still another");
