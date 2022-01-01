@@ -2,35 +2,36 @@ package com.tardisgallifrey;
 
 public class CharClass{
 
-    public static void main(){
+    public static void main(String[] args){
         //Character objects follow the same rules as 
         //Number objects
 
         //char primitive
-        char value = 'a'
+        char value = 'a';
 
         System.out.println(Character.isLetter(value));
             //Determines whether the specified char value is a letter.
 
-        //System.out.println(newValue.isDigit(newValue));
+        System.out.println(Character.isDigit(value));
             //Determines whether the specified char value is a digit.
 
-        //System.out.println(newValue.isWhitespace(newValue));
+        System.out.println(Character.isWhitespace(value));
             //Determines whether the specified char value is white space.
 
-        //newValue.isUpperCase()
+        System.out.println(Character.isUpperCase(value));
             //Determines whether the specified char value is uppercase.
 
-        //newValue.isLowerCase()
+        System.out.println(Character.isLowerCase(value));
             //Determines whether the specified char value is lowercase.
 
-        //newValue.toUpperCase()
+        System.out.println(Character.toUpperCase(value));
             //Returns the uppercase form of the specified char value.
 
-        //newValue.toLowerCase()
+        System.out.println(Character.toLowerCase(value));
             //Returns the lowercase form of the specified char value.
 
-        //newValue.toString()
+        System.out.println(Character.toString(value));
+	   //converts to String
 
     }
 }
