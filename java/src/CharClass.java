@@ -7,18 +7,15 @@ public class CharClass{
         //Number objects
 
         //char primitive
-        char value = 'a';
+        char value = 'a'
 
-        //Char object
-        Character newValue = new Character('b');
-
-        System.out.println(newValue.isLetter(newValue));
+        System.out.println(Character.isLetter(value));
             //Determines whether the specified char value is a letter.
 
-        System.out.println(newValue.isDigit(newValue));
+        //System.out.println(newValue.isDigit(newValue));
             //Determines whether the specified char value is a digit.
 
-        System.out.println(newValue.isWhitespace(newValue));
+        //System.out.println(newValue.isWhitespace(newValue));
             //Determines whether the specified char value is white space.
 
         //newValue.isUpperCase()
