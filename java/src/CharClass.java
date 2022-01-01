@@ -10,10 +10,10 @@ public class CharClass{
         char value = 'a';
 
         //Char object
-        Character newValue = 'b';
+        Character newValue = new Character;
+        newValue = 'b';
 
-
-        System.out.println(isLetter(newValue));
+        System.out.println(newValue.isLetter(newValue));
             //Determines whether the specified char value is a letter.
 
         System.out.println(isDigit(newValue));
