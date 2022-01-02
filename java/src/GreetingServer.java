@@ -9,7 +9,9 @@ public class GreetingServer extends Thread {
    
    public GreetingServer(int port) throws IOException {
       serverSocket = new ServerSocket(port);
-      serverSocket.setSoTimeout(10000);
+
+      //Used to ensure server shuts down
+      serverSocket.setSoTimeout(100000);
    }
 
    public void run() {
