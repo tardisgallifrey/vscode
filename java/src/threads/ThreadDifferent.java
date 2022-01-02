@@ -1,10 +1,10 @@
 package com.tardisgallifrey;
 
-class ThreadDifferent extends Thread {
+class MyThread extends Thread {
    private Thread t;
    private String threadName;
    
-   ThreadDifferent( String name) {
+   MyThread( String name) {
       threadName = name;
       System.out.println("Creating " +  threadName );
    }
@@ -32,13 +32,13 @@ class ThreadDifferent extends Thread {
    }
 }
 
-public class TestThread {
+public class ThreadDifferent {
 
    public static void main(String args[]) {
-      ThreadDifferent T1 = new ThreadDifferent( "Thread-1");
+      MyThread T1 = new MyThread( "Thread-1");
       T1.start();
       
-      ThreadDifferent T2 = new ThreadDifferent( "Thread-2");
+      MyThread T2 = new MyThread( "Thread-2");
       T2.start();
    }   
 }

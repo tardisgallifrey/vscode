@@ -4,12 +4,12 @@ package com.tardisgallifrey;
 //Runnable is an Interface.
 //We will implement the methods in Runnable
 
-class ThreadEasy implements Runnable {
+class MyThread implements Runnable {
    private Thread t;
    private String threadName;
    
    //Create a thread and give it a name
-   ThreadEasy( String name) {
+   MyThread( String name) {
       threadName = name;
       System.out.println("Creating " +  threadName );
    }
@@ -42,16 +42,16 @@ class ThreadEasy implements Runnable {
    }
 }
 
-public class TestThread {
+public class ThreadEasy {
 
    public static void main(String args[]) {
 
        //Instantiate and start a thread
-      ThreadEasy R1 = new ThreadEasy( "Thread-1");
+      MyThread R1 = new MyThread( "Thread-1");
       R1.start();
       
       //Instantiate and start a thread
-      ThreadEasy R2 = new ThreadEasy( "Thread-2");
+      MyThread R2 = new MyThread( "Thread-2");
       R2.start();
    }   
 }
