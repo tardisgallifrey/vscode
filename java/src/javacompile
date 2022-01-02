@@ -1,5 +1,0 @@
-#!/bin/bash
-
-#This is my set up to maintain my java packages
-#Determine your own folder location
-javac -d /home/tardis1/package_java $1.java
