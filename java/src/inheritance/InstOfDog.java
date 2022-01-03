@@ -14,7 +14,7 @@ public class InstOfDog extends Mammal {
 
    public static void main(String args[]) {
       Mammal m = new Mammal();
-      Dog d = new InstOfDog();
+      InstOfDog d = new InstOfDog();
 
         //Instanceof used to check upwards 
         //relationship

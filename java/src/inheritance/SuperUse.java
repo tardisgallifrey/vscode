@@ -21,7 +21,7 @@ public class SuperUse extends Super_class {
 
    public void my_method() {
       // Instantiating subclass
-      Sub_class sub = new Sub_class();
+      SuperUse sub = new SuperUse();
 
       // Invoking the display() method of sub class
       sub.display();
@@ -38,7 +38,7 @@ public class SuperUse extends Super_class {
    }
 
    public static void main(String args[]) {
-      Sub_class obj = new Sub_class();
+      SuperUse obj = new SuperUse();
       obj.my_method();
    }
 }

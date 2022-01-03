@@ -21,14 +21,14 @@ class Superclass {
 
 //Inherited class
 public class SuperConstruct extends Superclass {
-   Subclass(int age) {
+   SuperConstruct(int age) {
        //calls on the age as constructed in the base 
        //class constructor above
       super(age);
    }
 
    public static void main(String args[]) {
-      Subclass s = new Subclass(24);
+      SuperConstruct s = new SuperConstruct(24);
       s.getAge();
    }
 }

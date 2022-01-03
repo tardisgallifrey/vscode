@@ -1,6 +1,6 @@
-#include "/usr/lib64/GL/gl.h"
-#include "/usr/lib64/GL/glu.h"
-#include "/usr/lib64/GL/freeglut.h"
+#include <GL/gl.h>
+#include <GL/glu.h>
+#include <GL/glut.h>
 #include <iostream>
 
 using namespace std;
