@@ -1,6 +1,7 @@
 //Same as C, except names are different
 //iostream = stdio.h
 #include <iostream>
+#include <graphics.h>
 
 //Controversial
 //Some say do not use for security (?)
