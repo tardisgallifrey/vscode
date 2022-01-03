@@ -1,7 +1,6 @@
 //Same as C, except names are different
 //iostream = stdio.h
 #include <iostream>
-#include <graphics.h>
 
 //Controversial
 //Some say do not use for security (?)
@@ -16,8 +15,6 @@ int main()
   //C doesn't have a string type.  C++ does.
   string firstName="Dave\n";
   int temperature=25;
-
-  Initgraph();
 
         //cout is quick and dirty.  printf still here, I think.
 	cout << "Hello World!\n";
