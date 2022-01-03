@@ -17,6 +17,8 @@ int main()
   string firstName="Dave\n";
   int temperature=25;
 
+  Initgraph();
+
         //cout is quick and dirty.  printf still here, I think.
 	cout << "Hello World!\n";
 	cout << firstName;
