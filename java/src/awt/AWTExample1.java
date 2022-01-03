@@ -1,8 +1,13 @@
 package com.tardisgallifrey;
 
+
+//Just about simplest Window that we can build
+
+//Only needs awt classes
 // importing Java AWT class  
 import java.awt.*;    
   
+ //This is by inheritance.  See the next for by association 
 // extending Frame class to our class AWTExample1  
 public class AWTExample1 extends Frame {    
   
