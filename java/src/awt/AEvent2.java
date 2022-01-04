@@ -29,7 +29,7 @@ class AEvent2 extends Frame{
     
 }  
 
-import java.awt.event.*;  
+//import java.awt.event.*;  
 
 class Outer implements ActionListener{  
     AEvent2 obj;
