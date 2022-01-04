@@ -1,6 +1,6 @@
-//#include <GL/gl.h>      //OpenGL library header
-//#include <GL/glu.h>     //OpenGL Utilities header
-//#include <GL/glut.h>    //GLUT window header
+//To make it easier,
+//I created a common header file 
+//with all includes
 #include "graphics.h"
 
 //Namespace is not currently needed
