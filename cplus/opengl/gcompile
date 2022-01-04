@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# To compile and link OpenGL C++ apps
+
+g++ $1.cpp -lGLEW -lGL -lGLU -lglut -o $1
