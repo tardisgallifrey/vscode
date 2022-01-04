@@ -8,11 +8,11 @@ void DisplayScene(){
     glutSwapBuffers();
 }
 
-int main(){
+int main(int argc, char *argv[]){
 
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA);
-    glutInitWIndowSize(800,600);
+    //glutInitWIndowSize(800,600);
     glutInitWindowPosition(100,100);
     glutCreateWindow("Tutorial 01");
     glutDisplayFunc(DisplayScene);
