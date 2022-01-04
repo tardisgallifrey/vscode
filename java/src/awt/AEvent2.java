@@ -13,8 +13,10 @@ class AEvent2 extends Frame{
         tf.setBounds(60,50,170,20);  
         Button b=new Button("click me");  
         b.setBounds(100,120,80,30);  
-        //register listener  
+
+        //register listener from OUTSIDE this class 
         Outer o=new Outer(this);  
+
         b.addActionListener(o);//passing outer class instance  
         //add components and set size, layout and visibility  
         add(b);add(tf);  
@@ -31,6 +33,7 @@ class AEvent2 extends Frame{
 
 //import java.awt.event.*;  
 
+//This creates a listener used above
 class Outer implements ActionListener{  
     AEvent2 obj;
 
