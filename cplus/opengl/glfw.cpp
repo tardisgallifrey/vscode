@@ -1,8 +1,9 @@
 #include <iostream>
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 using namespace std;
-
+using namespace glm;
 
 int main(){
     glewExperimental = true; // Needed for core profile
