@@ -13,6 +13,18 @@ void drawTriangle()
     glColor3f(1.0, 1.0, 1.0);
     glOrtho(-1.0, 1.0, -1.0, 1.0, -1.0, 1.0);
 
+    //GL_TRIANGLES is an OpenGL primitive.
+    //Others are:
+    //GL_POINTS, 
+    //GL_LINES, 
+    //GL_LINE_STRIP, 
+    //GL_LINE_LOOP, 
+    //GL_TRIANGLE_STRIP, 
+    //GL_TRIANGLE_FAN, 
+    //GL_QUADS, 
+    //GL_QUAD_STRIP and 
+    //GL_POLYGON
+
         glBegin(GL_TRIANGLES);
                 glVertex3f(-0.7, 0.7, 0);
                 glVertex3f(0.7, 0.7, 0);
