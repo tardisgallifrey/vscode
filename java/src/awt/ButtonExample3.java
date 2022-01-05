@@ -16,11 +16,12 @@ public class ButtonExample3 {
         // set the position for the button in frame   
         b.setBounds(50,100,60,30);   
 
+        //all of the call back function is in the parentheses
         b.addActionListener(new ActionListener() {    
             public void actionPerformed (ActionEvent e) {    
                     tf.setText("Welcome to Javatpoint.");    
             }    
-        };  
+        });  
 
 // adding button the frame  
     f.add(b);  
