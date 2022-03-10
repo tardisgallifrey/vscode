@@ -4,6 +4,7 @@
 </head>
 <body>
     <script src="src/main.js"></script>
+    <script src="src/cookies.js"></script>
 
     <p>Click the following button and see result</p>      
       <form>
@@ -15,5 +16,19 @@
       <div id="mouse" onmouseover = "over()" onmouseout = "out()">
          <h2> This is inside the division </h2>
     </div>  
+
+    <div>
+      <form name = "myform" action = "">
+        Enter name: <input type = "text" name = "customer"/>
+        <input type = "button" value = "Set Cookie" onclick = "WriteCookie();"/>
+     </form>   
+    </div>
+
+    <div>
+      <form name = "myform" action = "">
+        <p> click the following button and see the result:</p>
+        <input type = "button" value = "Get Cookie" onclick = "ReadCookie()"/>
+     </form>   
+    </div>
 </body>
 </html>
